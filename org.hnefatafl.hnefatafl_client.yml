@@ -1,3 +1,4 @@
+# Try again!
 app-id: org.hnefatafl.hnefatafl_client
 runtime: org.freedesktop.Platform
 runtime-version: '24.08'
@@ -19,7 +20,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/dcampbell24/hnefatafl-copenhagen.git
-        tag: v1.1.4
+        tag: v1.2.0
       - cargo-sources.json
     build-options:
       append-path: /usr/lib/sdk/llvm18/bin
